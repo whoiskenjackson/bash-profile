@@ -43,3 +43,22 @@ function myIp(){
 		echo $en0;
 	fi 
 }
+
+#------------------ COLORS
+PS1="[\[\033[36m\]\u\[\033[37m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]]$ "
+
+#------------------ Reload
+
+alias reload="source ~/.bash_profile"
+
+#------------------ CD Aliases
+
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+
+#------------------ Other Aliases
+
+alias websites="cd /Applications/XAMPP/xamppfiles/htdocs/websites"
+alias github="cd /Applications/XAMPP/xamppfiles/htdocs/websites/github"
+alias st="git status"
